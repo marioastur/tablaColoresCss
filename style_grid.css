@@ -1,19 +1,23 @@
-h1 {
+h1,
+h2 {
     font-size: 40px;
     color: black;
     text-align: center;
 }
 
-#general {
+body {
+    background-image: url(madera.jpeg);
+}
+
+#colors {
     width: 800px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(4, 60px);
-    gap: 1px;
 }
 
-p {
+#colors p {
     text-align: center;
 }
 
@@ -80,4 +84,78 @@ p {
 
 .fuchsia {
     background-color: fuchsia;
+}
+
+#fonts {
+    width: 800px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(2, 60px);
+    gap: 3px;
+}
+
+#fonts p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.f-green {
+    color: green;
+}
+
+.f-black {
+    color: black;
+}
+
+.f-teal {
+    color: teal;
+}
+
+.f-blue {
+    color: blue;
+}
+
+.f-navy {
+    color: navy;
+}
+
+.f-lime {
+    color: lime;
+}
+
+.f-white {
+    color: white;
+}
+
+.f-purple {
+    color: purple;
+}
+
+.f-yellow {
+    color: yellow;
+}
+
+.f-olive {
+    color: olive;
+}
+
+.f-red {
+    color: red;
+}
+
+.f-gray {
+    color: gray;
+}
+
+.f-fuchsia {
+    color: fuchsia;
+}
+
+.f-aqua {
+    color: aqua;
+}
+
+.f-silver {
+    color: silver;
 }
